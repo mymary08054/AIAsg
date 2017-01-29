@@ -1,0 +1,37 @@
+Mary Yen
+AI
+EN.600.335
+Homework 1: Search
+
+please note that the writeup is located in doc/ and named:
+yen.mary.WRITTEN_PORTION.pdf
+
+Files
+---------
+Input.java: Main driver class and holds the code that will:
+read user's input for map file and search function
+search functions BFS, DFS, A*.
+print results of searches.
+Node.java: Node elements that store each node on the maps'
+information from coordinates to character value (depending on if
+it's comma or period, etc) and other necessary values for any
+of the search functions.
+
+To run the program
+-------------------
+cd to the src/ directory and use the "make" command before
+using the "make run" command. The user will then be prompted
+for the map (please enter in the *.txt file name; e.g. map1.txt).
+
+Runtimes
+---------
+The search functions generally run .05-.08 seconds, but have run
+when given map6 for 18s (BFS), 32(DFS), 19(A*).
+
+Reflections
+------------
+I took over 15 hours on this assignment. I started off with about an
+hour a day for the first week, but the second week, I had to put in
+drastically more time since debugging was difficult since I had not
+thought out my algorithms well the first time. I had fun discussing
+the algorithm with friends, though, so I was able to finish in time.

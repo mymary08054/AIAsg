@@ -1,0 +1,15 @@
+mary@Octopus:~/Documents/AI/yen.mary/src$ time make run
+java -cp ../bin edu.Input  
+Enter map file name: 
+map7.txt
+Enter 0 for BFS, 1 for DFS, 2 for A*: 
+1
+Running DFS...
+Cannot find path to goal.
+Cost: Infinite
+Number of nodes expanded: 38
+
+real	0m5.389s
+user	0m0.068s
+sys	0m0.017s
+

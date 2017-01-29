@@ -1,0 +1,5 @@
+Please note that the BFS output ordering is slightly different
+(The cost is printed earlier in all BFS outputs except for map6)
+due to these outputs being collected before changing when the
+cost was printed. The algorithm and everything else is the
+same, otherwise.

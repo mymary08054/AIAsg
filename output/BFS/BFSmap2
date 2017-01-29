@@ -1,0 +1,32 @@
+mary@Octopus:~/Documents/AI/yen.mary/src$ time make run
+java -cp ../bin edu.Input  
+Enter map file name: 
+map2.txt
+Enter 0 for BFS, 1 for DFS, 2 for A*: 
+0
+Running BFS...
+Goal found!
+Cost: 13
+Goal Path: 
+ [y: 7 x: 7]
+ [y: 6 x: 7]
+ [y: 5 x: 7]
+ [y: 4 x: 7]
+ [y: 3 x: 7]
+ [y: 2 x: 7]
+ [y: 1 x: 7]
+ [y: 0 x: 7]
+ [y: 0 x: 6]
+ [y: 0 x: 5]
+ [y: 0 x: 4]
+ [y: 0 x: 3]
+ [y: 0 x: 2]
+ [y: 0 x: 1]
+ [y: 0 x: 0]
+
+Number of nodes expanded: 14
+
+real	0m5.898s
+user	0m0.068s
+sys	0m0.034s
+

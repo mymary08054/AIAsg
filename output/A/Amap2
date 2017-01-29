@@ -1,0 +1,28 @@
+Enter 0 for BFS, 1 for DFS, 2 for A*: 
+2
+Running A*...
+Goal found!
+Goal Path: 
+ [y: 7 x: 7]
+ [y: 6 x: 7]
+ [y: 5 x: 7]
+ [y: 4 x: 7]
+ [y: 3 x: 7]
+ [y: 2 x: 7]
+ [y: 1 x: 7]
+ [y: 0 x: 7]
+ [y: 0 x: 6]
+ [y: 0 x: 5]
+ [y: 0 x: 4]
+ [y: 0 x: 3]
+ [y: 0 x: 2]
+ [y: 0 x: 1]
+ [y: 0 x: 0]
+
+Cost: 13
+Number of nodes expanded: 14
+
+real	0m5.818s
+user	0m0.051s
+sys	0m0.042s
+
